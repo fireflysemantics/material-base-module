@@ -8,9 +8,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "i": "npm install -g @jsdevtools/version-bump-prompt && npm install -g npm-check-updates && npm install -g npm-install-peers",
-    "b-mbm": "ng build material-base-module",
-    "bp-mbm": "cd projects/material-base-module && bump patch",
-    "p-mbm": "cp README.md dist/material-base-module && npm run bp-mbm && npm run b-mbm && cd dist/material-base-module && npm publish"
+    "b": "ng build material-base-module",
+    "bp": "cd projects/material-base-module && bump patch",
+    "p": "npm run bp && npm run b && cp README.md dist/material-base-module && cd dist/material-base-module && npm publish"
   },
   "private": true,
   "dependencies": {
