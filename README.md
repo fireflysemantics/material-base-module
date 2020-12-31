@@ -34,3 +34,8 @@ export class AppModule { }
 ## Versioning
 
 We will use semantic versioning so that the versions of this module match Angular Material.
+
+## Documentation
+
+[Module Creation Process](https://fireflysemantics.medium.com/creating-a-angular-material-kitchen-sink-base-module-6a00245b5ca9)
+
