@@ -1,0 +1,27 @@
+{
+  "name": "@fireflysemantics/material-base-module",
+  "version": "11.0.2",
+  "peerDependencies": {
+    "@angular/common": "*",
+    "@angular/core": "*",
+    "@angular/material": "*",
+    "tslib": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fireflysemantics/material-base-module.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fireflysemantics/material-base-module/issues"
+  },
+  "homepage": "https://github.com/fireflysemantics/material-base-module#readme",
+  "keywords": [
+    "angular",
+    "material",
+    "javascript",
+    "typescript",
+    "single page application",
+    "ux"
+  ],
+  "dependencies": {}
+}

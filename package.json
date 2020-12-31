@@ -1,20 +1,26 @@
 {
   "name": "material-workspace",
-  "version": "0.0.0",
+  "version": "11.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "i": "npm install -g @jsdevtools/version-bump-prompt && npm install -g npm-check-updates && npm install -g npm-install-peers",
+    "b-mbm": "ng build material-base-module",
+    "bp-mbm": "cd projects/material-base-module && bump patch",
+    "p-mbm": "cp README.md dist/material-base-module && npm run bp-mbm && npm run b-mbm && cd dist/material-base-module && npm publish"
   },
   "private": true,
   "dependencies": {
     "@angular/animations": "~11.0.4",
+    "@angular/cdk": "^11.0.3",
     "@angular/common": "~11.0.4",
     "@angular/compiler": "~11.0.4",
     "@angular/core": "~11.0.4",
     "@angular/forms": "~11.0.4",
+    "@angular/material": "^11.0.3",
     "@angular/platform-browser": "~11.0.4",
     "@angular/platform-browser-dynamic": "~11.0.4",
     "@angular/router": "~11.0.4",
@@ -23,6 +29,7 @@
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
+    "@angular-devkit/build-angular": "~0.1100.5",
     "@angular/cli": "~11.0.4",
     "@angular/compiler-cli": "~11.0.4",
     "@types/jasmine": "~3.6.0",
@@ -35,6 +42,7 @@
     "karma-coverage": "~2.0.3",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
+    "ng-packagr": "^11.0.0",
     "protractor": "~7.0.0",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
