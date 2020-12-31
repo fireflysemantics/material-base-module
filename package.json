@@ -10,7 +10,7 @@
     "i": "npm install -g @jsdevtools/version-bump-prompt && npm install -g npm-check-updates && npm install -g npm-install-peers",
     "b": "ng build material-base-module",
     "bp": "cd projects/material-base-module && bump patch",
-    "p": "cp README.md projects/material-base-module && npm run bp && npm run b && cd dist/material-base-module && npm publish"
+    "p": "cp README.md projects/material-base-module && npm run bp && npm run b && pwd && cd dist/material-base-module && npm publish"
   },
   "private": true,
   "dependencies": {

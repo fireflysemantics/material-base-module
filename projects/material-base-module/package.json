@@ -1,6 +1,6 @@
 {
   "name": "@fireflysemantics/material-base-module",
-  "version": "11.0.4",
+  "version": "11.0.10",
   "peerDependencies": {
     "@angular/common": "*",
     "@angular/core": "*",
@@ -14,6 +14,7 @@
   "bugs": {
     "url": "https://github.com/fireflysemantics/material-base-module/issues"
   },
+  "license": "MIT",
   "homepage": "https://github.com/fireflysemantics/material-base-module#readme",
   "keywords": [
     "angular",
