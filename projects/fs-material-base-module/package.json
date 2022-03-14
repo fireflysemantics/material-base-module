@@ -1,6 +1,6 @@
 {
   "name": "@fireflysemantics/material-base-module",
-  "version": "11.0.11",
+  "version": "11.0.13",
   "peerDependencies": {
     "@angular/common": "*",
     "@angular/core": "*",

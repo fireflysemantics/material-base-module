@@ -1,4 +1,8 @@
+//===============================================
 // material.module.ts
+// As a reference see
+// https://github.com/angular/components/blob/master/src/universal-app/kitchen-sink/kitchen-sink.ts
+//===============================================
 import { ModuleWithProviders, NgModule} from "@angular/core";
 import { MatNativeDateModule, MAT_DATE_LOCALE } from '@angular/material/core';
 import { MAT_FORM_FIELD_DEFAULT_OPTIONS } from '@angular/material/form-field';

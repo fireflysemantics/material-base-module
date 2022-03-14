@@ -10,7 +10,7 @@
     "i": "npm install -g @jsdevtools/version-bump-prompt && npm install -g npm-check-updates && npm install -g npm-install-peers",
     "b": "ng build fs-material-base-module",
     "bp": "cd projects/fs-material-base-module && bump patch",
-    "p": "cp README.md projects/fs-material-base-module && npm run bp && npm run b && pwd && cd dist/material-base-module && npm publish"
+    "p": "cp README.md projects/fs-material-base-module && npm run bp && npm run b && pwd && cd dist/fs-material-base-module && npm publish"
   },
   "private": true,
   "dependencies": {
