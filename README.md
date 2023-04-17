@@ -3,6 +3,10 @@
 Kitchen sink module containing all the Angular Material
 components.
 
+# Origin
+
+The [Angular Material Stackblitz demoes](https://stackblitz.com/edit/angular-9wehjf?file=src%2Fmaterial.module.ts) come with a `material.module`.
+
 ## Install
 
 ```

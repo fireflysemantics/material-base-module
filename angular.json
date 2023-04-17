@@ -27,13 +27,14 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/fs-material-base-module/src/test.ts",
             "tsConfig": "projects/fs-material-base-module/tsconfig.spec.json",
-            "karmaConfig": "projects/fs-material-base-module/karma.conf.js"
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ]
           }
         }
       }
     }
-  },
-  "defaultProject": "fs-material-base-module"
+  }
 }
